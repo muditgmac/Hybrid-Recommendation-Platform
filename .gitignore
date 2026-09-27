@@ -7,3 +7,7 @@ data/interim/
 notebooks/
 checkpoints/
 data/processed/
+
+.venv/
+*.egg-info/
+.pytest_cache/
