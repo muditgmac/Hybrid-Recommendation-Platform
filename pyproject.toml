@@ -25,7 +25,9 @@ dependencies = [
     'python-dotenv>=1.0',
     'faiss-cpu>=1.7',
     'fastapi>=0.110',
-    'uvicorn>=0.27'
+    'uvicorn>=0.27',
+    'sqlalchemy>=2.0,<2.2',
+    'psycopg[binary]>=3.2,<4'
 ]
 
 [project.optional-dependencies]
